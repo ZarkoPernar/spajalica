@@ -1,0 +1,22 @@
+.autocomplete-root {
+  width: 100%;
+  position: relative;
+}
+
+.autocomplete-root-container {
+  background-color: #fff;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  left: 0;
+  z-index: 14;
+}
+
+.autocomplete-container {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 2px 6px rgba(70, 70, 70, 0.3);
+  z-index: 3;
+}

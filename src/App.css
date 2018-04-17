@@ -1,0 +1,81 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+}
+
+.App-body {
+}
+
+.App-logo {
+  margin-top: 50px;
+}
+.App-logo__link {
+  border-radius: 50%;
+  font-family: Lobster, serif;
+  font-size: 30px;
+  text-align: center;
+  display: block;
+  color: #001529;
+  border: 2px solid #fc7774;
+  background-color: #fc7774;
+  text-decoration: none;
+  width: 150px;
+  /* added padding to center the word without the "!" mark */
+  padding-left: 4px;
+  margin: 0 auto;
+  height: 150px;
+  line-height: 140px;
+  transition: 0.2s ease all;
+  position: relative;
+}
+.App-logo__link:hover {
+  color: #fc7774;
+  text-decoration: underline;
+  background-color: #001529;
+}
+.App-logo__link:after {
+  content: '!';
+  opacity: 0;
+}
+.App-logo__link:hover:after {
+  opacity: 1;
+}
+
+.ant-layout-sider-collapsed .App-logo__link {
+  padding: 0;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+}
+
+.ant-layout-sider-collapsed .App-logo__link:before {
+  content: 'S';
+  position: absolute;
+  top: 2px;
+  left: 50%;
+  transform: translateX(-55%);
+  line-height: 40px;
+}
+.App-header {
+  background-color: #222;
+  height: 55px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

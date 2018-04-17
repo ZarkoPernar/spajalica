@@ -1,0 +1,38 @@
+.Template-list .ant-collapse-content {
+  padding: 0;
+}
+.Template-list .ant-collapse-content > .ant-collapse-content-box {
+  padding: 0;
+}
+
+.Template-list__order {
+  margin-bottom: 2rem;
+}
+
+.Template-list__tabs .ant-tabs-bar {
+  margin-bottom: 0;
+}
+
+.Template-list__tabs .ant-tabs-nav-container {
+  padding-left: 16px;
+}
+
+@media (min-width: 1280px) {
+  .Template-list__row {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .Template-list__col {
+    flex-basis: 50%;
+  }
+
+  .Template-list__col--main {
+    flex-basis: 70%;
+  }
+
+  .Template-list__order {
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+  }
+}
